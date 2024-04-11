@@ -4,6 +4,7 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* Header */
@@ -166,5 +167,15 @@ a {
     border: 2px solid #E5E7EB;
     padding: 5px 20px;
     border-radius: 10%;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
 }
 
