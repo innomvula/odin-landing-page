@@ -124,3 +124,47 @@ a {
     margin-top: 0;
     padding-right: 50px;
 }
+
+/* Call to Action */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 100px;
+}
+
+.cta-main {
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    padding: 25px 50px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-main div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+
+}
+
+.cta-main h1 {
+    margin: 0;
+}
+
+.cta-main p {
+    margin: 0px;
+}
+
+.cta button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 10%;
+}
+
